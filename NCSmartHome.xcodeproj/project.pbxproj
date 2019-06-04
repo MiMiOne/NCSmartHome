@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A73F8052859E81DB53743EF /* libPods-NCSmartHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8AA1DE01A0F0A7FD196419 /* libPods-NCSmartHome.a */; };
+		B861028D22A4C37A00A1A485 /* scanf.gif in Resources */ = {isa = PBXBuildFile; fileRef = B861028C22A4C37A00A1A485 /* scanf.gif */; };
+		B861029222A4E28000A1A485 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B861029122A4E28000A1A485 /* CoreLocation.framework */; };
+		B861029822A4E67F00A1A485 /* NCCaiYunModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B861029722A4E67F00A1A485 /* NCCaiYunModel.m */; };
+		B8C38C4322A0B83D00480F76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C38C4222A0B83D00480F76 /* AppDelegate.m */; };
+		B8C38C4B22A0B83F00480F76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8C38C4A22A0B83F00480F76 /* Assets.xcassets */; };
+		B8C38C4E22A0B83F00480F76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C38C4C22A0B83F00480F76 /* LaunchScreen.storyboard */; };
+		B8C38C5122A0B84000480F76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C38C5022A0B84000480F76 /* main.m */; };
+		B8DF688C22A3EF5C00073317 /* NCGuidePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF688B22A3EF5C00073317 /* NCGuidePageViewController.m */; };
+		B8DF689022A3F1FC00073317 /* AppConfi.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF688F22A3F1FC00073317 /* AppConfi.m */; };
+		B8DF689322A3F27400073317 /* UIColor+Expansion.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF689222A3F27400073317 /* UIColor+Expansion.m */; };
+		B8DF689622A3F2FF00073317 /* UIView+LWExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF689522A3F2FF00073317 /* UIView+LWExpansion.m */; };
+		B8DF689D22A40DF900073317 /* NCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF689C22A40DF900073317 /* NCTabBarViewController.m */; };
+		B8DF689F22A40F3D00073317 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DF689E22A40F3D00073317 /* Home.storyboard */; };
+		B8DF68A422A40F9500073317 /* Automation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DF68A322A40F9500073317 /* Automation.storyboard */; };
+		B8DF68A622A40F9C00073317 /* Rooms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DF68A522A40F9C00073317 /* Rooms.storyboard */; };
+		B8DF68A822A40FA400073317 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DF68A722A40FA400073317 /* About.storyboard */; };
+		B8DF68AB22A40FD300073317 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF68AA22A40FD300073317 /* BaseViewController.m */; };
+		B8DF68AE22A4135E00073317 /* NCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF68AD22A4135E00073317 /* NCHomeViewController.m */; };
+		B8DF68B122A4138400073317 /* NCAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF68B022A4138400073317 /* NCAboutViewController.m */; };
+		B8DF68B422A4139300073317 /* NCRoomsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF68B322A4139300073317 /* NCRoomsViewController.m */; };
+		B8DF68B722A413A300073317 /* NCAutomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF68B622A413A300073317 /* NCAutomationViewController.m */; };
+		B8DF68BB22A42E0700073317 /* NCHomeTopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF68B922A42E0700073317 /* NCHomeTopCollectionViewCell.m */; };
+		B8DF68BC22A42E0700073317 /* NCHomeTopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DF68BA22A42E0700073317 /* NCHomeTopCollectionViewCell.xib */; };
+		B8DF68C022A433B000073317 /* NCHomeBottomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF68BE22A433B000073317 /* NCHomeBottomCollectionViewCell.m */; };
+		B8DF68C122A433B000073317 /* NCHomeBottomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DF68BF22A433B000073317 /* NCHomeBottomCollectionViewCell.xib */; };
+		B8DF68C522A4BEDD00073317 /* NCAboutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DF68C322A4BEDD00073317 /* NCAboutTableViewCell.m */; };
+		B8DF68C622A4BEDD00073317 /* NCAboutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DF68C422A4BEDD00073317 /* NCAboutTableViewCell.xib */; };
+		B8FA8A6922A5039100004A83 /* NCHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FA8A6822A5039100004A83 /* NCHelpViewController.m */; };
+		B8FA8A6C22A50FA100004A83 /* NCBluetoothModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FA8A6B22A50FA100004A83 /* NCBluetoothModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2659D09307B0624751137CEC /* Pods-NCSmartHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCSmartHome.debug.xcconfig"; path = "Target Support Files/Pods-NCSmartHome/Pods-NCSmartHome.debug.xcconfig"; sourceTree = "<group>"; };
+		7E8AA1DE01A0F0A7FD196419 /* libPods-NCSmartHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NCSmartHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDEFBB1B178FDA191CEBDB4 /* Pods-NCSmartHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCSmartHome.release.xcconfig"; path = "Target Support Files/Pods-NCSmartHome/Pods-NCSmartHome.release.xcconfig"; sourceTree = "<group>"; };
+		B861028C22A4C37A00A1A485 /* scanf.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scanf.gif; sourceTree = "<group>"; };
+		B861029122A4E28000A1A485 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B861029622A4E67F00A1A485 /* NCCaiYunModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCCaiYunModel.h; sourceTree = "<group>"; };
+		B861029722A4E67F00A1A485 /* NCCaiYunModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCCaiYunModel.m; sourceTree = "<group>"; };
+		B8C38C3E22A0B83D00480F76 /* NCSmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCSmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C38C4122A0B83D00480F76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8C38C4222A0B83D00480F76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8C38C4A22A0B83F00480F76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8C38C4D22A0B83F00480F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8C38C4F22A0B84000480F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C38C5022A0B84000480F76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8DF688A22A3EF5C00073317 /* NCGuidePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCGuidePageViewController.h; sourceTree = "<group>"; };
+		B8DF688B22A3EF5C00073317 /* NCGuidePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCGuidePageViewController.m; sourceTree = "<group>"; };
+		B8DF688E22A3F1FC00073317 /* AppConfi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfi.h; sourceTree = "<group>"; };
+		B8DF688F22A3F1FC00073317 /* AppConfi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppConfi.m; sourceTree = "<group>"; };
+		B8DF689122A3F27400073317 /* UIColor+Expansion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expansion.h"; sourceTree = "<group>"; };
+		B8DF689222A3F27400073317 /* UIColor+Expansion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expansion.m"; sourceTree = "<group>"; };
+		B8DF689422A3F2FF00073317 /* UIView+LWExpansion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LWExpansion.h"; sourceTree = "<group>"; };
+		B8DF689522A3F2FF00073317 /* UIView+LWExpansion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LWExpansion.m"; sourceTree = "<group>"; };
+		B8DF689822A3F49700073317 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B8DF689B22A40DF900073317 /* NCTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCTabBarViewController.h; sourceTree = "<group>"; };
+		B8DF689C22A40DF900073317 /* NCTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCTabBarViewController.m; sourceTree = "<group>"; };
+		B8DF689E22A40F3D00073317 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B8DF68A322A40F9500073317 /* Automation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Automation.storyboard; sourceTree = "<group>"; };
+		B8DF68A522A40F9C00073317 /* Rooms.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rooms.storyboard; sourceTree = "<group>"; };
+		B8DF68A722A40FA400073317 /* About.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
+		B8DF68A922A40FD300073317 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		B8DF68AA22A40FD300073317 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		B8DF68AC22A4135E00073317 /* NCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCHomeViewController.h; sourceTree = "<group>"; };
+		B8DF68AD22A4135E00073317 /* NCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCHomeViewController.m; sourceTree = "<group>"; };
+		B8DF68AF22A4138400073317 /* NCAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCAboutViewController.h; sourceTree = "<group>"; };
+		B8DF68B022A4138400073317 /* NCAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCAboutViewController.m; sourceTree = "<group>"; };
+		B8DF68B222A4139300073317 /* NCRoomsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCRoomsViewController.h; sourceTree = "<group>"; };
+		B8DF68B322A4139300073317 /* NCRoomsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCRoomsViewController.m; sourceTree = "<group>"; };
+		B8DF68B522A413A300073317 /* NCAutomationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCAutomationViewController.h; sourceTree = "<group>"; };
+		B8DF68B622A413A300073317 /* NCAutomationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCAutomationViewController.m; sourceTree = "<group>"; };
+		B8DF68B822A42E0700073317 /* NCHomeTopCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCHomeTopCollectionViewCell.h; sourceTree = "<group>"; };
+		B8DF68B922A42E0700073317 /* NCHomeTopCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCHomeTopCollectionViewCell.m; sourceTree = "<group>"; };
+		B8DF68BA22A42E0700073317 /* NCHomeTopCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NCHomeTopCollectionViewCell.xib; sourceTree = "<group>"; };
+		B8DF68BD22A433B000073317 /* NCHomeBottomCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCHomeBottomCollectionViewCell.h; sourceTree = "<group>"; };
+		B8DF68BE22A433B000073317 /* NCHomeBottomCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCHomeBottomCollectionViewCell.m; sourceTree = "<group>"; };
+		B8DF68BF22A433B000073317 /* NCHomeBottomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NCHomeBottomCollectionViewCell.xib; sourceTree = "<group>"; };
+		B8DF68C222A4BEDD00073317 /* NCAboutTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCAboutTableViewCell.h; sourceTree = "<group>"; };
+		B8DF68C322A4BEDD00073317 /* NCAboutTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCAboutTableViewCell.m; sourceTree = "<group>"; };
+		B8DF68C422A4BEDD00073317 /* NCAboutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NCAboutTableViewCell.xib; sourceTree = "<group>"; };
+		B8FA8A6722A5039100004A83 /* NCHelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCHelpViewController.h; sourceTree = "<group>"; };
+		B8FA8A6822A5039100004A83 /* NCHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCHelpViewController.m; sourceTree = "<group>"; };
+		B8FA8A6A22A50FA100004A83 /* NCBluetoothModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCBluetoothModule.h; sourceTree = "<group>"; };
+		B8FA8A6B22A50FA100004A83 /* NCBluetoothModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCBluetoothModule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8C38C3B22A0B83D00480F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B861029222A4E28000A1A485 /* CoreLocation.framework in Frameworks */,
+				6A73F8052859E81DB53743EF /* libPods-NCSmartHome.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EB1A9740732FD0AEBA14E72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2659D09307B0624751137CEC /* Pods-NCSmartHome.debug.xcconfig */,
+				9DDEFBB1B178FDA191CEBDB4 /* Pods-NCSmartHome.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8C38C3522A0B83D00480F76 = {
+			isa = PBXGroup;
+			children = (
+				B8C38C4022A0B83D00480F76 /* NCSmartHome */,
+				B8C38C3F22A0B83D00480F76 /* Products */,
+				9EB1A9740732FD0AEBA14E72 /* Pods */,
+				C0312815832CE9944E64211E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8C38C3F22A0B83D00480F76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8C38C3E22A0B83D00480F76 /* NCSmartHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8C38C4022A0B83D00480F76 /* NCSmartHome */ = {
+			isa = PBXGroup;
+			children = (
+				B8DF68A222A40F7900073317 /* Automation */,
+				B8DF68A122A40F6300073317 /* Rooms */,
+				B8DF68A022A40F5700073317 /* About */,
+				B8DF689A22A40DCC00073317 /* MainAbout */,
+				B8DF689922A40DC000073317 /* Home */,
+				B8DF688D22A3F1CC00073317 /* Expansion */,
+				B8C38C4122A0B83D00480F76 /* AppDelegate.h */,
+				B8C38C4222A0B83D00480F76 /* AppDelegate.m */,
+				B8DF688A22A3EF5C00073317 /* NCGuidePageViewController.h */,
+				B8DF688B22A3EF5C00073317 /* NCGuidePageViewController.m */,
+				B8C38C4A22A0B83F00480F76 /* Assets.xcassets */,
+				B8C38C4C22A0B83F00480F76 /* LaunchScreen.storyboard */,
+				B8C38C4F22A0B84000480F76 /* Info.plist */,
+				B8C38C5022A0B84000480F76 /* main.m */,
+				B8DF689822A3F49700073317 /* PrefixHeader.pch */,
+				B861028C22A4C37A00A1A485 /* scanf.gif */,
+			);
+			path = NCSmartHome;
+			sourceTree = "<group>";
+		};
+		B8DF688D22A3F1CC00073317 /* Expansion */ = {
+			isa = PBXGroup;
+			children = (
+				B8DF688E22A3F1FC00073317 /* AppConfi.h */,
+				B8DF688F22A3F1FC00073317 /* AppConfi.m */,
+				B8DF689122A3F27400073317 /* UIColor+Expansion.h */,
+				B8DF689222A3F27400073317 /* UIColor+Expansion.m */,
+				B8DF689422A3F2FF00073317 /* UIView+LWExpansion.h */,
+				B8DF689522A3F2FF00073317 /* UIView+LWExpansion.m */,
+			);
+			path = Expansion;
+			sourceTree = "<group>";
+		};
+		B8DF689922A40DC000073317 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B8DF689E22A40F3D00073317 /* Home.storyboard */,
+				B8DF68AC22A4135E00073317 /* NCHomeViewController.h */,
+				B8DF68AD22A4135E00073317 /* NCHomeViewController.m */,
+				B8DF68B822A42E0700073317 /* NCHomeTopCollectionViewCell.h */,
+				B8DF68B922A42E0700073317 /* NCHomeTopCollectionViewCell.m */,
+				B8DF68BA22A42E0700073317 /* NCHomeTopCollectionViewCell.xib */,
+				B8DF68BD22A433B000073317 /* NCHomeBottomCollectionViewCell.h */,
+				B8DF68BE22A433B000073317 /* NCHomeBottomCollectionViewCell.m */,
+				B8DF68BF22A433B000073317 /* NCHomeBottomCollectionViewCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B8DF689A22A40DCC00073317 /* MainAbout */ = {
+			isa = PBXGroup;
+			children = (
+				B8DF689B22A40DF900073317 /* NCTabBarViewController.h */,
+				B8DF689C22A40DF900073317 /* NCTabBarViewController.m */,
+				B8DF68A922A40FD300073317 /* BaseViewController.h */,
+				B8DF68AA22A40FD300073317 /* BaseViewController.m */,
+			);
+			path = MainAbout;
+			sourceTree = "<group>";
+		};
+		B8DF68A022A40F5700073317 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				B8DF68A722A40FA400073317 /* About.storyboard */,
+				B8DF68AF22A4138400073317 /* NCAboutViewController.h */,
+				B8DF68B022A4138400073317 /* NCAboutViewController.m */,
+				B8DF68C222A4BEDD00073317 /* NCAboutTableViewCell.h */,
+				B8DF68C322A4BEDD00073317 /* NCAboutTableViewCell.m */,
+				B8DF68C422A4BEDD00073317 /* NCAboutTableViewCell.xib */,
+				B8FA8A6722A5039100004A83 /* NCHelpViewController.h */,
+				B8FA8A6822A5039100004A83 /* NCHelpViewController.m */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		B8DF68A122A40F6300073317 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				B8DF68A522A40F9C00073317 /* Rooms.storyboard */,
+				B8DF68B222A4139300073317 /* NCRoomsViewController.h */,
+				B8DF68B322A4139300073317 /* NCRoomsViewController.m */,
+				B8FA8A6A22A50FA100004A83 /* NCBluetoothModule.h */,
+				B8FA8A6B22A50FA100004A83 /* NCBluetoothModule.m */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		B8DF68A222A40F7900073317 /* Automation */ = {
+			isa = PBXGroup;
+			children = (
+				B8DF68A322A40F9500073317 /* Automation.storyboard */,
+				B8DF68B522A413A300073317 /* NCAutomationViewController.h */,
+				B8DF68B622A413A300073317 /* NCAutomationViewController.m */,
+				B861029622A4E67F00A1A485 /* NCCaiYunModel.h */,
+				B861029722A4E67F00A1A485 /* NCCaiYunModel.m */,
+			);
+			path = Automation;
+			sourceTree = "<group>";
+		};
+		C0312815832CE9944E64211E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B861029122A4E28000A1A485 /* CoreLocation.framework */,
+				7E8AA1DE01A0F0A7FD196419 /* libPods-NCSmartHome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8C38C3D22A0B83D00480F76 /* NCSmartHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8C38C5422A0B84000480F76 /* Build configuration list for PBXNativeTarget "NCSmartHome" */;
+			buildPhases = (
+				B2A5F0D01A4F8066FA31E4DD /* [CP] Check Pods Manifest.lock */,
+				B8C38C3A22A0B83D00480F76 /* Sources */,
+				B8C38C3B22A0B83D00480F76 /* Frameworks */,
+				B8C38C3C22A0B83D00480F76 /* Resources */,
+				51A4416F9A5C18B8976F7017 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCSmartHome;
+			productName = NCSmartHome;
+			productReference = B8C38C3E22A0B83D00480F76 /* NCSmartHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8C38C3622A0B83D00480F76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Wiley;
+				TargetAttributes = {
+					B8C38C3D22A0B83D00480F76 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B8C38C3922A0B83D00480F76 /* Build configuration list for PBXProject "NCSmartHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8C38C3522A0B83D00480F76;
+			productRefGroup = B8C38C3F22A0B83D00480F76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8C38C3D22A0B83D00480F76 /* NCSmartHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8C38C3C22A0B83D00480F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DF68C622A4BEDD00073317 /* NCAboutTableViewCell.xib in Resources */,
+				B8DF689F22A40F3D00073317 /* Home.storyboard in Resources */,
+				B8DF68BC22A42E0700073317 /* NCHomeTopCollectionViewCell.xib in Resources */,
+				B8DF68A422A40F9500073317 /* Automation.storyboard in Resources */,
+				B861028D22A4C37A00A1A485 /* scanf.gif in Resources */,
+				B8DF68A822A40FA400073317 /* About.storyboard in Resources */,
+				B8DF68A622A40F9C00073317 /* Rooms.storyboard in Resources */,
+				B8DF68C122A433B000073317 /* NCHomeBottomCollectionViewCell.xib in Resources */,
+				B8C38C4E22A0B83F00480F76 /* LaunchScreen.storyboard in Resources */,
+				B8C38C4B22A0B83F00480F76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51A4416F9A5C18B8976F7017 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NCSmartHome/Pods-NCSmartHome-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NCSmartHome/Pods-NCSmartHome-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NCSmartHome/Pods-NCSmartHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2A5F0D01A4F8066FA31E4DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NCSmartHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8C38C3A22A0B83D00480F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DF68AE22A4135E00073317 /* NCHomeViewController.m in Sources */,
+				B8DF689622A3F2FF00073317 /* UIView+LWExpansion.m in Sources */,
+				B8DF68B422A4139300073317 /* NCRoomsViewController.m in Sources */,
+				B8DF68C522A4BEDD00073317 /* NCAboutTableViewCell.m in Sources */,
+				B8DF68AB22A40FD300073317 /* BaseViewController.m in Sources */,
+				B861029822A4E67F00A1A485 /* NCCaiYunModel.m in Sources */,
+				B8DF68C022A433B000073317 /* NCHomeBottomCollectionViewCell.m in Sources */,
+				B8FA8A6922A5039100004A83 /* NCHelpViewController.m in Sources */,
+				B8DF68B722A413A300073317 /* NCAutomationViewController.m in Sources */,
+				B8DF68BB22A42E0700073317 /* NCHomeTopCollectionViewCell.m in Sources */,
+				B8DF689322A3F27400073317 /* UIColor+Expansion.m in Sources */,
+				B8FA8A6C22A50FA100004A83 /* NCBluetoothModule.m in Sources */,
+				B8DF688C22A3EF5C00073317 /* NCGuidePageViewController.m in Sources */,
+				B8DF689022A3F1FC00073317 /* AppConfi.m in Sources */,
+				B8C38C5122A0B84000480F76 /* main.m in Sources */,
+				B8DF68B122A4138400073317 /* NCAboutViewController.m in Sources */,
+				B8C38C4322A0B83D00480F76 /* AppDelegate.m in Sources */,
+				B8DF689D22A40DF900073317 /* NCTabBarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8C38C4C22A0B83F00480F76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8C38C4D22A0B83F00480F76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8C38C5222A0B84000480F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8C38C5322A0B84000480F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8C38C5522A0B84000480F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2659D09307B0624751137CEC /* Pods-NCSmartHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53WH6R73R7;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = NCSmartHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = natatorialCloud.NCSmartHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8C38C5622A0B84000480F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDEFBB1B178FDA191CEBDB4 /* Pods-NCSmartHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53WH6R73R7;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = NCSmartHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = natatorialCloud.NCSmartHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8C38C3922A0B83D00480F76 /* Build configuration list for PBXProject "NCSmartHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8C38C5222A0B84000480F76 /* Debug */,
+				B8C38C5322A0B84000480F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8C38C5422A0B84000480F76 /* Build configuration list for PBXNativeTarget "NCSmartHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8C38C5522A0B84000480F76 /* Debug */,
+				B8C38C5622A0B84000480F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8C38C3622A0B83D00480F76 /* Project object */;
+}

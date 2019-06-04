@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About View Controller-->
+        <scene sceneID="TiX-nC-tXf">
+            <objects>
+                <viewController storyboardIdentifier="NCAboutViewController" id="iVl-Wv-NUA" customClass="NCAboutViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L3s-Ha-nY9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0fg-2B-bOy">
+                                <rect key="frame" x="0.0" y="156" width="414" height="706"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="iVl-Wv-NUA" id="SwR-6E-PuM"/>
+                                    <outlet property="delegate" destination="iVl-Wv-NUA" id="mJY-n4-zvh"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关于" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aix-oP-wcu">
+                                <rect key="frame" x="20" y="108" width="80.5" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Aix-oP-wcu" firstAttribute="top" secondItem="C5Q-Ud-hwY" secondAttribute="top" constant="20" id="63t-6c-yc2"/>
+                            <constraint firstItem="Aix-oP-wcu" firstAttribute="leading" secondItem="C5Q-Ud-hwY" secondAttribute="leading" constant="20" id="OeX-ne-13d"/>
+                            <constraint firstItem="C5Q-Ud-hwY" firstAttribute="bottom" secondItem="0fg-2B-bOy" secondAttribute="bottom" id="Rlv-Qh-Rub"/>
+                            <constraint firstItem="0fg-2B-bOy" firstAttribute="top" secondItem="Aix-oP-wcu" secondAttribute="bottom" id="g7U-wC-8C4"/>
+                            <constraint firstItem="0fg-2B-bOy" firstAttribute="leading" secondItem="C5Q-Ud-hwY" secondAttribute="leading" id="qnV-ow-2v3"/>
+                            <constraint firstItem="C5Q-Ud-hwY" firstAttribute="trailing" secondItem="0fg-2B-bOy" secondAttribute="trailing" id="rrV-vE-NfZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="C5Q-Ud-hwY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lcj-fG-ZTI"/>
+                    <connections>
+                        <outlet property="tableView" destination="0fg-2B-bOy" id="ClV-Ki-nge"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DKX-fC-ggZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066.6666666666667" y="31.473214285714285"/>
+        </scene>
+        <!--Help View Controller-->
+        <scene sceneID="Ivr-qz-9P5">
+            <objects>
+                <viewController storyboardIdentifier="NCHelpViewController" id="CqP-QA-7lU" customClass="NCHelpViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6PD-VQ-5pm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eNA-rq-lMD">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">帮助说明
+
+1.祥云智能家居App，由广东省深圳市祥云智能家居科技有限公司生产研发。
+2.本App需要配合公司产品&lt;祥云智能家居终端1.0&gt;使用。
+3.未经授权禁止第三方接入使用。
+4.使用途中若有疑问可以致电400-600-5588咨询。
+5.对于购买祥云智能家居设备用户，本App承若永久免费使用
+感谢您使用祥云智能家居产品，我们会以最优质的服务和更优秀的产品来回馈我们的客户。</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eNA-rq-lMD" firstAttribute="top" secondItem="JDu-j1-CHb" secondAttribute="top" id="3s7-Bz-zz0"/>
+                            <constraint firstItem="eNA-rq-lMD" firstAttribute="leading" secondItem="JDu-j1-CHb" secondAttribute="leading" id="MXO-as-3dK"/>
+                            <constraint firstItem="JDu-j1-CHb" firstAttribute="trailing" secondItem="eNA-rq-lMD" secondAttribute="trailing" id="O3L-tB-GR2"/>
+                            <constraint firstItem="JDu-j1-CHb" firstAttribute="bottom" secondItem="eNA-rq-lMD" secondAttribute="bottom" id="j6w-yr-qev"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JDu-j1-CHb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GUT-zv-x4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1757" y="25"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yt5-mD-3dX">
+            <objects>
+                <navigationController storyboardIdentifier="About" automaticallyAdjustsScrollViewInsets="NO" id="dJD-KX-czj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5Us-pw-NDB">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iVl-Wv-NUA" kind="relationship" relationship="rootViewController" id="MAN-Ye-3bm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FLN-9q-wG0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157.97101449275362" y="31.473214285714285"/>
+        </scene>
+    </scenes>
+</document>
